@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-aspect-ratio: 7/10) {
+  .joinpage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start !important;
+  }
+  .joinContainer {
+    margin-top: 56vw !important;
+    width: 100% !important;
+  }
+  .joinContainer > img {
+    width: 28vw !important;
+  }
+  .joinContainer > h1 {
+    font-size: 11vw !important;
+    width: 55vw !important;
+    border-bottom: 0.6vw solid white !important;
+
+    padding: 4vw !important;
+    font-family: "Roboto";
+    box-sizing: border-box;
+  }
+  #joinInput {
+    width: 65vw !important ;
+
+    padding: 4vw !important;
+    border-radius: 10px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    margin: 5vw !important;
+    font-size: 5vw !important;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62vw !important;
+    padding: 5vw !important;
+    font-size: 7vw !important;
+  }
+
+  .chatContainer {
+    background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+    height: 100% !important;
+    width: 100% !important;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+  }
+  .header {
+    height: 17vw !important;
+
+    justify-content: space-between;
+  }
+  .header > h2 {
+    font-size: 3vmax;
+
+    margin: 8vw !important;
+  }
+
+  .image2 {
+    margin: 6vw !important;
+
+    transform: scale(1.5) !important;
+    width: 3vmax;
+    height: 3vmax;
+  }
+  .image1{
+    
+    width: 28vw !important;
+    height: 16vw !important;
+    margin: -5.8vw !important;
+  }
+  .header > img:hover {
+    transform: scale(3.2) !important;
+  }
+  .chatBox {
+    height: 80% !important;
+    box-sizing: border-box;
+  }
+  .inputBox {
+    height: 8.9% !important;
+    box-sizing: border-box;
+    display: flex;
+  }
+  #chatInput {
+    
+
+    padding: 4vw !important;
+    box-sizing: border-box;
+
+    outline: none;
+    font-family: sans-serif;
+    font-size: 4vw !important;
+    
+  }
+  .messageBox{
+    
+    
+    padding: 2.5vw !important;
+    margin: 2vw !important;
+    border-radius: 1.5vw !important;
+   clear: both;
+   
+  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right{
+ 
+  font-size: 3.5vw !important;
+  
+}
+
+.left{
+ 
+  font-size: 3.5vw !important;
+  
+  
+}
+}
+

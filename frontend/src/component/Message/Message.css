@@ -1,0 +1,34 @@
+.messageBox{
+    background-color: bisque;
+  
+    padding: 1vmax;
+    margin: 0.5vmax;
+    border-radius: 0.5vmax;
+   clear: both;
+    font-size: 1.2vmax;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right{
+    float: right;
+    background-color: #47628a;
+
+
+    
+    color: white;
+    font-size: 1vmax;
+    text-decoration:solid;
+    font-family:sans-serif;
+   font-weight:600;
+}
+
+.left{
+    float: left;
+    text-decoration:solid;
+    text-align: left;
+    font-family:sans-serif;
+    font-size: 1vmax;
+    background-color: #e5e9ee;
+    font-weight: 600;
+    
+}

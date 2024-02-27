@@ -43,5 +43,5 @@ io.on("connection",(socket)=>{
 })
 
 server.listen(port,()=>{
-    console.log(`server is working on  http://localhost:${port}`);
+    console.log(`server is working on  https://v-chat-rho.vercel.app/`);
 })
